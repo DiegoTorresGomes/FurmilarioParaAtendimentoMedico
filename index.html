@@ -38,54 +38,31 @@
         <div class="campo">
             <label><strong>Qual o tipo de consulta ?</strong></label>
             <label>
-                <input type="radio" name="devweb" value="frontend" checked>Nutricional
+                <input type="radio" name="devweb" value="nutricioal" checked>Nutricional
             </label>
             <label>
-                <input type="radio" name="devweb" value="backend">Estética
+                <input type="radio" name="devweb" value="estetica">Estética
             </label>
             <label>
-                <input type="radio" name="devweb" value="fullstack">Farmaceutica
+                <input type="radio" name="devweb" value="farmaceutica">Farmaceutica
             </label>
         </div>
 
 
         <div class="campo">
                 <label for="senioridade"><strong>Dª para Atendimento</strong></label>
-            <select id="senioridade">
+            <select id="senioridade" required>
                 <option selected disabled value="">Selecione...</option>
                 <option>Drª Weverlyn Torres</option>
-                <!--<option>Drª Weverlyn Torres</option> removido a duplicidade, verificando nova doutora-->
                 <option>Drª Welma Alves</option>
             </select>
-            <!-- comentado para remover estas opções, estou verificando a necessidade.
         </div>
-        <fieldset class="grupo">
-            <div id="check">
-                <label><strong>Selecione os medicamentos utilizados:</strong></label><br><br>
-                <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
-                <label for="tecnologia1">Dipirona </label>
-                <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
-                <label for="tecnologia2">Dorflex </label>
-                <input type="checkbox" id="tecnologia3" name="tecnologia3" value="Javascript">
-                <label for="tecnologia3">Pantogar </label>
-                <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
-                <label for="tecnologia4">Clonazepam </label>
-                <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#">
-                <label for="tecnologia5"> </label>
-                <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python">
-                <label for="tecnologia6">Python </label>
-                <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java">
-                <label for="tecnologia7">Java</label>
-            </div>
-        </fieldset>-->
-
         <div class="campo">
             <br>
             <label><strong>Faz uso de algum medicamento ? Descreva...</strong></label>
-            <textarea rows="6" style="width:26em" id="experiencia" name="experiencia"></textarea>
+            <textarea rows="6" style="width:26em" id="caixa" name="caixa"></textarea>
         </div>
-
-        <button class="botao" type="submit">Concluído</button>
+        <button class="botao" type="onsubmit">Concluído</button>
 
     </form>
 
