@@ -106,8 +106,8 @@ textarea{
     padding: 0.2em 0.9em;
     box-shadow: 2px 2px 2px rgba(193, 247, 230, 0.2);
     text-shadow: 1px 1px 1px rgba(163, 175, 156, 0.288);
-    position: absolute;
-    top: auto;
+    position: fixed;
+    top: 97%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
