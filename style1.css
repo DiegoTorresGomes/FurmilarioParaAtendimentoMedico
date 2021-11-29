@@ -7,7 +7,7 @@ body{
     background-color: aquamarine;
     font-family: 'Courier New', Courier, monospace;
     justify-content: center;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 h1{
@@ -78,7 +78,7 @@ label{
 }
 
 .campo label {
-    margin-bottom: 0.8em;
+    margin-bottom: 1em;
     color: black;
     display: block;
 }
@@ -95,6 +95,7 @@ textarea{
     margin: auto;
     padding: 50px;
     display: block;
+    border-radius: 5px;
 }
 
 .botao {
