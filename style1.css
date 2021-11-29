@@ -27,7 +27,7 @@ fieldset{
     text-align: left;
     top: auto;
     border: 0;
-    height: 100%;
+    height: auto;
     margin: auto;
     overflow: auto;  
     width: auto;  
@@ -35,22 +35,23 @@ fieldset{
 }
 
 .coluna1{
-    width: 60%;
+    width: 200px;
     height: 60px;
     margin: 3%;
     padding: 10px;
-    display: inline-block;
-    left: 0px;
+    display: table-cell;
+    left: 10px;
 }
 
 .coluna2{
-    width: 1rem;
+    width: 200px;
     height: 60px;
-    margin: 3%;
-    padding: 0;
-    display: inline-block;
-    left: 0px;
-    overflow: fixed;
+    text-align: right;
+    padding: auto;
+    display: table-cell;
+    left: 30px;
+    right: auto;
+    overflow: none;
     box-shadow: #84dbcd;
 }
 
@@ -78,13 +79,6 @@ input, select, button {
     font-size: 1em;
     color: #84dbcd;
     border-radius: 5px;
-}
-
-.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
-    padding: 0.2em;
-    border: 1px solid #84dbcd;
-    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
-    display: block;
 }
 
 textarea{
