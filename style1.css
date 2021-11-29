@@ -23,41 +23,51 @@ h1{
 }
 
 fieldset{
+    position: relative;
     display: table;
     text-align: left;
     top: auto;
-    border: 0;
+    border: 0px;
     height: auto;
-    margin: auto;
+    margin: 20px;
     overflow: auto;  
-    width: auto;  
-    padding: 0;
+    width: 600px;  
+    padding: 0px;
 }
 
 .coluna1{
     width: 200px;
     height: 60px;
-    margin: 3%;
-    padding: 10px;
-    display: table-cell;
-    left: 10px;
+    display: inline-block;
+    box-shadow: #84dbcd;
 }
 
 .coluna2{
+    display: inline-block;
     width: 200px;
     height: 60px;
-    text-align: right;
-    padding: auto;
-    display: table-cell;
-    left: 30px;
-    right: auto;
+    box-shadow: #84dbcd;
+}
+
+.coluna3{
+    position: absolute;
+    left: 210px;
+    width: 200px;
+    height: 60px;
+    box-shadow: #84dbcd;
+}
+
+.coluna4{
+    width: 200px;
+    height: 60px;
     overflow: none;
     box-shadow: #84dbcd;
 }
 
 label{
+    position: relative;
     padding: 0;
-    margin: auto;
+    margin: 10px;
     width: auto;
 }
 
