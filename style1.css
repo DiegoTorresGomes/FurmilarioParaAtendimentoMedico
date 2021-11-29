@@ -27,35 +27,31 @@ fieldset{
     text-align: left;
     top: auto;
     border: 0;
-    width: 90%;
-    height: 200px;
-    overflow: auto;
-    
-}
-
-.gupo{
+    height: 100%;
     margin: auto;
-    height: 100px;
-}
-
-
-.grupo:before, .grupo:after {
-    display: table;
+    overflow: auto;  
+    width: auto;  
+    padding: 0;
 }
 
 .coluna1{
-    margin: 20px;
-    padding: 1px;
-    margin-bottom: 50px;
+    width: 60%;
+    height: 60px;
+    margin: 3%;
+    padding: 10px;
     display: inline-block;
-    width: 400px;
     left: 0px;
 }
 
 .coluna2{
-    margin-bottom: 50px;
+    width: 1rem;
+    height: 60px;
+    margin: 3%;
+    padding: 0;
     display: inline-block;
-    width: 400px;
+    left: 0px;
+    overflow: fixed;
+    box-shadow: #84dbcd;
 }
 
 label{
@@ -65,7 +61,7 @@ label{
 }
 
 .campo{
-    margin: 20px;
+    margin: 1rem;
 }
 .grupo:after {
     clear: both;
@@ -77,23 +73,12 @@ label{
     display: block;
 }
 
-
-
-input, select, textarea, button {
+input, select, button {
     font-family: sans-serif;
     font-size: 1em;
-    color: rgba(98, 219, 158, 0.8);
+    color: #84dbcd;
     border-radius: 5px;
 }
-
-
-
-
-
-
-
-
-
 
 .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
     padding: 0.2em;
@@ -102,15 +87,20 @@ input, select, textarea, button {
     display: block;
 }
 
-
+textarea{
+    box-shadow: #84dbcd;
+    margin: auto;
+    padding: 50px;
+    display: block;
+}
 
 .botao {
     font-size: 1.2em;
     background: #12a071;
     border: 0;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     color: #ffffff;
-    padding: 0.2em 0.6em;
+    padding: 0.2em 0.9em;
     box-shadow: 2px 2px 2px rgba(193, 247, 230, 0.2);
     text-shadow: 1px 1px 1px rgba(163, 175, 156, 0.288);
     position: absolute;
@@ -118,6 +108,8 @@ input, select, textarea, button {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+    text-align: center;
+    display: block;
 }
 
 .botao:hover {
