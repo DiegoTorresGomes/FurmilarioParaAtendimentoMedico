@@ -38,29 +38,26 @@ fieldset{
     width: 200px;
     height: 60px;
     display: inline-block;
-    box-shadow: #84dbcd;
 }
 
 .coluna2{
     display: inline-block;
     width: 200px;
     height: 60px;
-    box-shadow: #84dbcd;
 }
 
 .coluna3{
     position: absolute;
-    left: 210px;
     width: 200px;
     height: 60px;
-    box-shadow: #84dbcd;
 }
 
 .coluna4{
+    position: relative;
+    left: 210px;
     width: 200px;
     height: 60px;
     overflow: none;
-    box-shadow: #84dbcd;
 }
 
 label{
@@ -86,14 +83,13 @@ label{
 input, select, button {
     font-family: sans-serif;
     font-size: 1em;
-    color: #84dbcd;
+    color: black;
     border-radius: 5px;
 }
 
 textarea{
-    box-shadow: #84dbcd;
+    box-shadow: black;
     margin: auto;
-    padding: 50px;
     display: block;
     border-radius: 5px;
 }
