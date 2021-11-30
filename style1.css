@@ -38,9 +38,11 @@ fieldset{
     width: 200px;
     height: 60px;
     display: inline-block;
+    text-transform: capitalize;
 }
 
 .coluna2{
+    text-transform: capitalize;
     display: inline-block;
     width: 200px;
     height: 60px;
